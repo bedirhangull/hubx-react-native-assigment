@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@components": ["components/index"],
+      "@assets": ["assets/index"],
+      "@utils": ["utils/index"],
+      "@theme": ["theme/theme"],
+      "@slices": ["store/slices/*"],
+      "@store": ["store/index"],
+      "@global": ["components/common_styled_components/index"]
+    },
+    "typeRoots": ["types"],
+    "types": ["jest", "node", "@types/styled-components-react-native"]
+  }
+}
