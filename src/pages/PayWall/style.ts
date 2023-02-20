@@ -39,6 +39,7 @@ const RegularTitle = styled.Text`
     font-family: ${(props: ITheme) => props.theme.fontFamily.regular};
     color: ${(props: ITheme) => props.theme.colors.white};
 `
+
 const Description = styled.Text`
     font-size: ${(props: ITheme) => props.theme.fontSizes.l};
     font-family: ${(props: ITheme) => props.theme.fontFamily.regular};

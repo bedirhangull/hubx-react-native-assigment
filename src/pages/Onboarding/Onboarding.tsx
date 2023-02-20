@@ -8,7 +8,6 @@ import { SlideContainer, ImageContainer, ButtonContainer, Title } from './style'
 
 import { background, second_onboarding_image, third_onboarding_image } from '@assets'
 
-
 const Onboarding = ({ navigation }) => {
 
     const { activeDots } = styles;
@@ -20,7 +19,6 @@ const Onboarding = ({ navigation }) => {
             swiperRef.current.scrollBy(2, true);
         }
     };
-
 
     const _goToPayWall = () => { navigation.navigate('PayWall'); }
 
